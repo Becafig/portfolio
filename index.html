@@ -32,7 +32,6 @@
             position: relative;
         }
 
-        /* Particles background */
         #particles-js {
             position: fixed;
             width: 100%;
@@ -51,7 +50,6 @@
             z-index: 1;
         }
 
-        /* NAVBAR */
         .navbar {
             position: fixed;
             top: 0;
@@ -155,7 +153,6 @@
             z-index: 1000;
         }
 
-        /* HERO SECTION */
         .hero {
             height: 100vh;
             display: flex;
@@ -249,7 +246,6 @@
             background-color: rgba(100, 255, 218, 0.1);
         }
 
-        /* ABOUT SECTION */
         .section {
             padding: 8rem 0;
             position: relative;
@@ -356,7 +352,6 @@
             object-fit: cover;
         }
 
-        /* EXPERIENCE SECTION */
         .timeline-container {
             position: relative;
             max-width: 1000px;
@@ -438,7 +433,6 @@
             line-height: 1.6;
         }
 
-        /* EDUCATION SECTION */
         .education-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -488,7 +482,6 @@
             color: var(--text-secondary);
         }
 
-        /* PORTFOLIO SECTION */
         .portfolio-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -558,7 +551,6 @@
             color: var(--accent);
         }
 
-        /* SERVICES SECTION */
         .services-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -602,7 +594,6 @@
             line-height: 1.6;
         }
 
-        /* CONTACT SECTION */
         .contact-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -692,7 +683,6 @@
             resize: vertical;
         }
 
-        /* FOOTER */
         .footer {
             background-color: var(--dark-navy);
             padding: 2rem 0;
@@ -727,7 +717,6 @@
             color: var(--text-secondary);
         }
 
-        /* Fixed contact */
         .fixed-contact {
             position: fixed;
             right: 40px;
@@ -759,7 +748,6 @@
             color: var(--primary);
         }
 
-        /* Email Link */
         .email-link {
             position: fixed;
             bottom: 0;
@@ -789,7 +777,6 @@
             transform: translateY(-5px);
         }
 
-        /* Animations */
         @keyframes fadeInUp {
             0% {
                 opacity: 0;
@@ -813,7 +800,6 @@
             }
         }
 
-        /* Back to Top */
         .back-to-top {
             position: fixed;
             bottom: 40px;
@@ -845,7 +831,6 @@
             color: var(--primary);
         }
 
-        /* Mobile Menu */
         .mobile-menu {
             position: fixed;
             top: 0;
@@ -885,7 +870,6 @@
             font-size: 0.9rem;
         }
 
-        /* Media Queries */
         @media (max-width: 1200px) {
             .container {
                 padding: 0 4rem;
@@ -1006,10 +990,8 @@
     </style>
 </head>
 <body>
-    <!-- Particles Background -->
     <div id="particles-js"></div>
 
-    <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="#home" class="logo">LB</a>
@@ -1026,7 +1008,6 @@
         </div>
     </nav>
 
-    <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobile-menu">
         <div class="mobile-menu-container">
             <a href="#about" class="mobile-nav-item"><span>01.</span>Sobre</a>
@@ -1037,7 +1018,6 @@
         </div>
     </div>
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
@@ -1054,7 +1034,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section class="section" id="about">
         <div class="container">
             <div class="section-header">
@@ -1079,7 +1058,6 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
     <section class="section" id="experience">
         <div class="container">
             <div class="section-header">
@@ -1131,7 +1109,6 @@
         </div>
     </section>
 
-    <!-- Education Section -->
     <section class="section" id="education">
         <div class="container">
             <div class="section-header">
@@ -1194,7 +1171,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section class="section" id="services">
         <div class="container">
             <div class="section-header">
@@ -1240,7 +1216,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section class="section" id="contact">
         <div class="container">
             <div class="section-header">
@@ -1286,7 +1261,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
             <div class="social-links">
@@ -1299,7 +1273,6 @@
         </div>
     </footer>
 
-    <!-- Fixed Contact -->
     <div class="fixed-contact">
         <a href="https://wa.me/5522988446566" target="_blank" class="fixed-contact-item">
             <i class="fab fa-whatsapp"></i>
@@ -1309,12 +1282,10 @@
         </a>
     </div>
 
-    <!-- Back to Top -->
     <a href="#home" class="back-to-top" id="backToTop">
         <i class="fas fa-arrow-up"></i>
     </a>
 
-    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script>
         // Particles.js
